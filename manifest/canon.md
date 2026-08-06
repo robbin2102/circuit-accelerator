@@ -1,59 +1,47 @@
-# canon.md — [Company Name]
+# canon.md — Yieldr
 
 > **What this file is:** the single source of truth for your story and every number you claim.
 > Every agent you build reads this file. Every post, email, deck and dinner answer derives from it.
 > **The one rule:** no number appears anywhere that isn't in this file with a source.
 >
 > **Maintenance:** update within 24h of any material change. Date-stamp every edit.
-> Last updated: YYYY-MM-DD by [name]
+> Last updated: 2026-08-06 by Robbin
 
 ## Identity
 
-- **Company:**
-- **One-liner:** <!-- ≤15 words. What you do, for whom. No adjectives that a competitor couldn't also claim. -->
-- **Founded:** · **Entity:** <!-- e.g. SG Pte Ltd, Delaware C-Corp, "not yet incorporated" — be honest, investors will check -->
-- **Founders of record:** <!-- full legal names + roles. Only people who are actually founders. -->
-- **Base ecosystem relationship:** <!-- what you're built on, integration status. "In review" ≠ "integrated". -->
+- **Company:** Yieldr
+- **One-liner:** The agent stack for onchain funds — verified trading edge, agent-operated vaults.
+- **Founded:** November 2025 · **Entity:** <!-- fill in — be honest, investors will check -->
+- **Founders of record:** Robbin Arora — Solo founder
+- **Base ecosystem relationship:** Base Batches 002 — Top 5 of 900 projects, Winners Builder Track
 
 ## Origin story
 
-<!-- 150–250 words, first person, in YOUR voice (calibrate with skills/voice.md).
-     Structure: the moment you saw the problem → why you specifically → what you did about it.
-     The test: could an investor retell this to their partner meeting in two sentences?
-     Include the one concrete detail people remember. Cut everything generic. -->
+I wanted to allocate $100K across top DeFi traders and couldn't find a platform that let me do it without blindly copying someone else's strategy — so I set out to build one, using AI agents to discover trader edge and allocate into it. I validated the thesis myself first: a quant agent I built to trade perps on Avantis grew a wallet from $5K to $18K in 4 months (defirobbin.base.eth), proving edge could be systematized and run by an agent instead of a person. That became Yieldr — agents that discover and invest in trading edge, now managing $100K live, with a quant agent in development for meme and alt-coin traders so anyone with edge can launch and run their own onchain fund.
 
 ## Founder edge
 
-<!-- Why *you* win this market. Evidence, not aspiration.
-     If you've taken the Pigment assessment, translate your profile here: your work style,
-     your top measured strengths, and ONE sentence connecting them to what this company needs.
-     Then the track record: exits, domain years, unfair access. Each with a checkable fact. -->
+CA/CPA (ICAI AIR 32), with a financial-systems background from KPMG and BCG. Previously founded and scaled an edtech venture to $1M ARR, and turned down an acquisition offer to keep building — a decision that eventually led here, to Yieldr. 4+ years active DeFi trading, including growing a personal wallet from $5K to $18K in 4 months by systematizing my own edge (defirobbin.base.eth), which is the same problem Yieldr now solves for other traders. Validated the thesis on personal capital before writing a line of product code.
 
 ## Traction — the numbers table
 
-<!-- THE most important section. Every row needs a source you could show an investor.
-     Source types, strongest first:
-       [dashboard] live public/verifiable dashboard   [contract] signed agreement
-       [platform] platform analytics screenshot       [bank] bank/payment records
-       [self] internal records, not independently verifiable — allowed, but say so.
-     If two of your own sources disagree, resolve it HERE before using the number anywhere. -->
-
 | Claim | Number | As of | Source | Notes |
 |---|---|---|---|---|
-| e.g. Total revenue | $ ______ **(state currency!)** | YYYY-MM-DD | [bank] | |
-| e.g. Active users | | | | define "active" |
-| | | | | |
+| AUM trading (live) | $100K USD | 2026-08-06 | [dashboard] yieldr.org | |
+| Agent vaults (live) | 2 | 2026-08-06 | [dashboard] yieldr.org/explorer | |
+| Active agents | 2 | 2026-08-06 | [dashboard] yieldr.org/explorer | |
+| Wallets whitelisted (waitlist) | 485 | 2026-08-06 | [dashboard] yieldr.org/explorer | |
+| Agent vaults (waitlist) | 12 | 2026-08-06 | [dashboard] yieldr.org/explorer | |
+| Target AUM (waitlist) | $1.8M USD | 2026-08-06 | [dashboard] yieldr.org/explorer | community-expressed demand, not committed capital |
+| Founder trading track record | $5K → $18K | 4-month period, 2026 [confirm exact dates] | [self/onchain] defirobbin.base.eth | personal capital, pre-product |
 
 **Currency rule:** every money figure states its currency explicitly. USD ≠ PHP ≠ SGD.
 
 ## Partnerships & pipeline
 
-<!-- Status vocabulary — use these words and no others:
-     SIGNED (contract executed) · IN DILIGENCE · IN TALKS · PROSPECTIVE (no contact yet).
-     "Finalizing" is IN DILIGENCE. A credit programme is not a customer. -->
-
 | Partner | Status | What it actually is | Source |
 |---|---|---|---|
+| Virtuals (launchpad) | IN DILIGENCE | Token launch (TGE) planned on Virtuals launchpad, with backing from core Virtuals team | [self] — direct relationship via TG chats, not independently verifiable |
 
 ## Objection ledger
 
