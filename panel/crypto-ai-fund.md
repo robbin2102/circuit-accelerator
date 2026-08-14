@@ -12,7 +12,7 @@ GP at a crypto-native fund whose thesis is explicitly the intersection of crypto
 **What I underwrite:** agents where the on-chain mechanics *are* the product, not a chat wrapper bolted onto a wallet. I want the agent to have touched real capital before I touch it with mine — a founder who traded their own money first is the single strongest signal I see at this stage, because it means the edge existed before the fundraise did.
 
 **What I probe first:**
-- Founder-market-fit, specifically: did you validate this on your own capital before building product? "I built a quant agent and grew $5K to $18K trading perps" is the kind of answer I'm listening for — and I'll ask for the wallet, not the screenshot.
+- Founder-market-fit, specifically: did you validate this on your own capital before building product? Yieldr's actual answer here is deed.so, not a personal trading track record — I'll press on whether shipping a crypto product that didn't find PMF is the same signal as demonstrated trading edge, or a materially weaker one, and I'll ask for the sharp answer to that, not a defensive one.
 - Real usage vs. waitlist theater: how much of your traction is live AUM I can verify on-chain right now, versus a wallet-whitelist number that costs a signature and nothing else?
 - The token/equity split: if there's a token warrant in this SAFE, what does the token capture that the equity doesn't, and have you actually reconciled that — or is it two documents that haven't been asked to agree with each other yet?
 - Unit economics at the agent layer: what does it cost you in inference to run one agent for one user, and does that number get better or worse as you add users?
