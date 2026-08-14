@@ -5,7 +5,7 @@
 > **The one rule:** no number appears anywhere that isn't in this file with a source.
 >
 > **Maintenance:** update within 24h of any material change. Date-stamp every edit.
-> Last updated: 2026-08-06 by Robbin
+> Last updated: 2026-08-14 by Robbin
 
 ## Identity
 
@@ -17,23 +17,28 @@
 
 ## Origin story
 
-I wanted to allocate $100K across top DeFi traders and couldn't find a platform that let me do it without blindly copying someone else's strategy — so I set out to build one, using AI agents to discover trader edge and allocate into it. I validated the thesis myself first: a quant agent I built to trade perps on Avantis grew a wallet from $5K to $18K in 4 months (defirobbin.base.eth), proving edge could be systematized and run by an agent instead of a person. That became Yieldr — agents that discover and invest in trading edge, now managing $100K live, with a quant agent in development for meme and alt-coin traders so anyone with edge can launch and run their own onchain fund.
+I wanted to allocate $100K across top DeFi traders and couldn't find a platform that let me do it without blindly copying someone else's strategy. Digging into why, the real problem turned out to be structural: of the roughly 100M traders in crypto, the top 5% (~5M) have real, provable edge but no infrastructure to turn it into a fund — what exists today are vaults, not funds, because the strategy-execution layer and the fund-operations layer are both missing. A trader managing a vault directly is legally messy, so the fix is an AI agent managing capital onchain instead. That became Yieldr — agents that discover and systematize trading edge into onchain funds, shipping in four phases. The first product, Quant Agent, reads a trader's wallet and grades their edge across entry, exit, and sizing; it also serves the other 95% of traders, who lose money most of the time and use the same agent to find where they're leaking edge and close the gap toward the top 5%. Quant Agent launches 2026-08-30, with 500+ wallets already on the waitlist. Quant Terminal comes next — demand/supply signals, agent alerts, and top-trader edge tracking across FOMO and pump.fun — targeted for Q1 2027 once the engineering team is built. Agent vaults follow — gated to traders who rank top-5% in their protocol or asset class, opening once Quant Agent reaches a critical mass of 10,000 traders; 12 vaults are already gathering commitments. Once 500 vaults are live, an Allocation Agent for passive depositors completes the stack.
 
 ## Founder edge
 
-CA/CPA (ICAI AIR 32), with a financial-systems background from KPMG and BCG. Previously founded and scaled an edtech venture to $1M ARR, and turned down an acquisition offer to keep building — a decision that eventually led here, to Yieldr. 4+ years active DeFi trading, including growing a personal wallet from $5K to $18K in 4 months by systematizing my own edge (defirobbin.base.eth), which is the same problem Yieldr now solves for other traders. Validated the thesis on personal capital before writing a line of product code.
+CA/CPA (ICAI AIR 32), with a financial-systems background from KPMG and BCG. Built deed.so, a Solana dapp letting creators tokenize internet properties (Twitch streams, Roblox games) — reached $3M in trading volume, though the team concluded it hadn't found product-market fit and moved on; real, disclosed, on-domain crypto-building experience, including a firsthand read on what doesn't work. Previously founded and scaled an edtech venture to $1M ARR. The combination — financial-systems rigor plus hands-on crypto product experience, including a real miss — is the operating history behind Yieldr.
 
 ## Traction — the numbers table
 
+<!-- 2026-08-14: dropped the "5K to 18K personal trading track record" claim entirely (not
+     scalable as evidence, per founder decision). Re-included the $100K figure, precisely scoped
+     to prediction-market vaults rather than a generic "AUM trading (live)" claim, since the
+     broader agent-vault product is not yet live for outside deposits. -->
+
 | Claim | Number | As of | Source | Notes |
 |---|---|---|---|---|
-| AUM trading (live) | $100K USD | 2026-08-06 | [dashboard] yieldr.org | |
-| Agent vaults (live) | 2 | 2026-08-06 | [dashboard] yieldr.org/explorer | |
-| Active agents | 2 | 2026-08-06 | [dashboard] yieldr.org/explorer | |
-| Wallets whitelisted (waitlist) | 485 | 2026-08-06 | [dashboard] yieldr.org/explorer | |
-| Agent vaults (waitlist) | 12 | 2026-08-06 | [dashboard] yieldr.org/explorer | |
-| Target AUM (waitlist) | $1.8M USD | 2026-08-06 | [dashboard] yieldr.org/explorer | community-expressed demand, not committed capital |
-| Founder trading track record | $5K → $18K | 4-month period, 2026 [confirm exact dates] | [self/onchain] defirobbin.base.eth | personal capital, pre-product |
+| AUM live in prediction-market vaults | $100K USD | 2026-08-14 | [dashboard] yieldr.org | scoped specifically to prediction-market vaults — a different product surface than the agent-vault roadmap below |
+| Agent vaults (waitlist, gathering commitments) | 12 | 2026-08-14 | [dashboard] yieldr.org | not yet live for outside deposits |
+| Wallets whitelisted (waitlist) | 500+ | 2026-08-14 | [dashboard] yieldr.org | |
+| Quant Agent launch date | 2026-08-30 | — | yieldr.org roadmap | wallet-based edge grading tool (Entry/Exit/Sizing score); first product to ship |
+| Genesis prelaunch subscription opens | 2026-08-15 | — | [self] | traders lock a price ~50% below eventual public Terminal pricing, paid once now; subscription service period doesn't start until Quant Terminal ships (targeted Q1 2027) |
+| Genesis subscriber token reward | 1x–2x of payment, in tokens at TGE | — | [self] | airdropped to subscribers' wallets within 30 days of TGE; exact composition ($YLDR and/or stock-linked tokens) confirmed before TGE |
+| Quant Agent ARR target | $120K ARR (run-rate, via $10K MRR) | Target: by end of Aug 2026 | [self] internal projection | **forward-looking target, not yet actuals** — driven by Genesis subscription signups; subscription has not opened as of this writing; do not cite as achieved until reported |
 
 **Currency rule:** every money figure states its currency explicitly. USD ≠ PHP ≠ SGD.
 
@@ -42,6 +47,7 @@ CA/CPA (ICAI AIR 32), with a financial-systems background from KPMG and BCG. Pre
 | Partner | Status | What it actually is | Source |
 |---|---|---|---|
 | Virtuals (launchpad) | IN DILIGENCE | Token launch (TGE) planned on Virtuals launchpad, with backing from core Virtuals team | [self] — direct relationship via TG chats, not independently verifiable |
+| Robinhood Chain (HOOD Chain) | LIVE | Quant Agent wallet scanning + signal tracking live on Robinhood Chain alongside Base | [self] yieldr.org |
 
 ## Objection ledger
 
@@ -53,7 +59,7 @@ CA/CPA (ICAI AIR 32), with a financial-systems background from KPMG and BCG. Pre
 
 **KILL QUESTION:** …
 
-1. **Q:** … **A:** …
+1. **Q:** deed.so didn't find PMF — why will Yieldr be different? **A:** OPEN — needs a sharp, rehearsed answer before the next investor conversation, not a defensive one.
 2. **Q:** … **A:** …
 
 ## Voice sample
